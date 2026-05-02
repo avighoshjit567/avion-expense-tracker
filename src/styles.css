@@ -1561,6 +1561,23 @@ button {
   max-width: 14rem;
 }
 
+.settings-file-input-wide {
+  max-width: 100%;
+}
+
+.backup-flow-grid {
+  gap: 1rem;
+}
+
+.backup-card {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: color-mix(in srgb, var(--surface-alt) 85%, transparent);
+}
+
 @media (max-width: 860px) {
   .theme-toggle-label,
   .auth-footer-links {
